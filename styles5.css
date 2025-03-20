@@ -1,0 +1,44 @@
+body{
+    background-color: aqua;
+}
+
+.title{
+    font-size: 100px;
+}
+
+.items-wrapper{
+    display: flex;
+}
+
+.items-wrapper p{
+    width: 200px;
+    font-size: 40px;
+}
+
+.items-wrapper p:first-child{
+    background-color: rgb(221, 9, 175);
+}
+
+.items-wrapper p:last-child{
+    background-color: rgb(25, 133, 3);
+}
+
+/* @media only screen  and (max-width : 1200px){
+    .title{
+        font-size: 50px;
+    }
+
+    body{
+        background-color: darkblue;
+    }
+
+    .items-wrapper{
+        flex-direction: column;
+    }
+} */
+
+@media only screen  and (min-width : 1366px){
+    body{
+    background-color: orange;
+    }
+}

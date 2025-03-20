@@ -1,0 +1,53 @@
+:root{
+    --bg-color:#000;
+    --text-color:#fff;
+}
+
+p{
+    font-size: 50px;
+
+}
+
+/* p::before{
+    content: "Before content";
+    color: red;
+}
+
+p::after{
+    content: "***";
+    color: red;
+}
+*/
+p,h1,button{
+    background-color: var(--bg-color);
+    color:var(--text-color)
+} 
+
+.content{
+    width: 500px;
+    height: 100px;
+    background-color: red ;
+    color: black;
+    font-size: 20px;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+
+.card{
+    width:500px;
+    display: flex;
+    background-color: green;
+    color:#fff;
+ p{
+    font-size: 20px;
+ } 
+}
+
+.card p:first-child{
+    width: 100px;
+}
+
+.card p:last-child{
+    width: calc(100%-100px);
+}

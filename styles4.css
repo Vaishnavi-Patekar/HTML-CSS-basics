@@ -1,0 +1,100 @@
+/* 
+flex,
+flex direction,
+flex wrap,
+justify content,
+align items,
+align self,
+align content,
+flex grow,
+flex shrink,
+flex basis,
+order 
+*/
+
+ .title{
+    margin: 0px;
+    font-size: 20px;
+}
+
+.flex-container{
+    width:1200px;
+    border:2px solid red;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    order: 1;
+
+
+}
+
+/* .flex-item.item2{
+ align-self: flex-start;
+
+}
+
+
+.flex-item.item4{
+    align-self: flex-start;
+    
+}  */
+
+/* .content{
+    width: 800px;
+    border: 1px solid;
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.content-one{
+    background-color: red;
+    color: #fff;
+    width: 1000px;
+    flex-shrink: 2;
+
+
+}
+
+.content-two{
+    background-color: rgb(10, 205, 244);
+    color:black;
+    flex-grow: 1;
+    width: 250px;
+
+    width: 1000px;
+     
+     flex-basis:600px;
+}
+
+.content-three{
+    background-color: rgb(225, 36, 178);
+    color: #fff;
+    width: 1000px;
+    
+} */
+
+.flex-item.item5{
+    order:-1;
+}
+
+.flex-item.item4{
+    order:-2;
+}
+
+.flex-item.item3{
+    order:2;
+}

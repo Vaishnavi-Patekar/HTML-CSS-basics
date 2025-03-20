@@ -1,0 +1,171 @@
+/* a{
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(52, 177, 14);
+}
+
+a:hover{
+    color:rgb(0,47,255);
+}
+
+a:focus{
+    color:rgb(125, 39, 206);
+} */
+/* 
+#list-item-wrapper{
+    list-style-type: "*";
+} */
+
+/* *{
+    color:rgb(15, 218, 218);
+    text-decoration: underline;
+    font-size: 30px;
+    background-color: rgb(85, 22, 145);
+    margin:0;
+    padding:0;
+} */
+
+/* input {
+    border: 10px soild rgb(12, 187, 70);
+}
+
+input[type="email"]{
+    border: 2px soild rgb(243, 2, 2);
+}
+
+input[type="password"]{
+border-color: blue;
+} */
+
+/* a{
+    font-size:60px;
+    padding-left: 30px;
+
+} */
+
+/* a[href*="link"]{
+    font-size:100px;
+}
+
+div p{
+    color:darkgreen;
+    font-size: 40px;
+}
+
+#parent-div p{
+    color:crimson;
+}
+
+#parent-div-two p{
+    color:hotpink;
+    font-size: 30px;
+} */
+
+/* #parent-div span{
+    color:rgb(6, 17, 163);
+} */
+
+/* #parent-div>span{
+    color:rgb(11, 141, 180);
+}
+
+div.helloworld{
+    color:coral;
+    font-size:30px;
+}
+
+div.randomclass{
+    font-size: 50px;
+    color:brown;
+} */
+
+/* h1{
+    color:blue;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 20px;
+    border-width: 30px;
+    border-style: dashed;
+    
+} */
+
+/* .box{
+    padding:10px;
+    border:2px solid red;
+    margin:10px 20px 10px 20px;
+    width:100px;
+    box-sizing: border-box;
+    height:100px;
+    max-width: 300px;
+} */
+
+/* .card{
+    width:1000px;
+    height:1000px;
+    border:5px solid rgb(255, 0, 242); */
+    /* background-image:url(imageweb2.png);
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-position:left top;
+    background-attachment: fixed; */
+    /* background:red url(imageweb2.png) no-repeat fixed right top;
+} */
+/* 
+.item1,.item2,.item3{
+    width: 2000px;
+    height: 50px;
+    background-color: red;
+    padding: 5px;
+    margin-top: 20px;
+    color:white;
+    font-size: 30px;
+} */
+
+/* .item2{
+    position: relative;
+    top:-100px;
+    left:100px;
+}
+
+.item3{
+    position:relative;
+    top:300px;
+
+
+} */
+
+/* span{
+    background: green;
+}
+
+.fixed-element{
+    position: fixed;
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-size: 30px;
+    left: 400px;
+    top:500px;
+} */
+
+/* .hover-button{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(207, 38, 38);
+    color: azure;
+    border: 2px solid orange;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 3s,background-color 3s;
+    transform: translate(300px,200px)
+ }
+ 
+ .hover-button:hover{
+     background-color: rgb(26, 206, 206);
+     color: rgb(5, 155, 182);
+    } */

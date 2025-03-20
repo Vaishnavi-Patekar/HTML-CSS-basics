@@ -1,0 +1,52 @@
+.card{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(1, 11, 1);
+    color: #fff;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    animation-name: changetransiton;
+    animation-duration: 5s;
+    font-weight: bold;
+    animation-iteration-count: 2;
+    animation-delay: 3s;
+}
+
+/* @keyframes changetextcolor{
+
+    from{
+        color:red;
+        background-color: blue;
+
+    }
+
+    to{
+       color:rgb(26, 165, 196);
+       background-color: rgb(212, 28, 28);
+    }
+
+} */
+
+@keyframes changetransiton{
+    0%{
+        transform: translateX(300px);
+        background-color: yellow;
+    }
+
+    25%{
+        transform: translateX(250px);
+        background-color: blue;
+    }
+
+    50%{
+        transform: translateX(280px);
+        background-color: brown;
+    }
+
+    100%{
+        transform: translateX(0px);
+        background-color: green;
+    }
+} 
